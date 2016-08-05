@@ -5,6 +5,5 @@
 all have same nav bar - fixed to top, decorative background on nav
 
 STILL NEED:
-span
 floats
-readme
+README

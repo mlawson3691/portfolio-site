@@ -1,21 +1,24 @@
 /*======= PAGE SETUP =======*/
 
 body {
-  font-family: serif;
-  font-weight: 100;
   font-size: 2em;
+  font-weight: 200;
+  color: #595959;
 }
 
 /*======= NAVIGATION =======*/
 
-.small {
-  font-weight: 100;
+.navbar{
+  /*background: #336600;
+  background-image: url('../img/header.jpg');
+  background-size: 100% auto;
+  color: white;*/
+  padding-top: 40px;
+  background: white;
 }
 
-.navbar{
-  background: #336600;
-  color: white;
-  padding-top: 40px;
+.navbar .container {
+  border-bottom: 1px solid gray;
 }
 
 .navbar-brand {
@@ -26,6 +29,7 @@ body {
   font-size: 90%;
   margin-top: 1.2em;
   padding-left: 2em;
+  font-weight: 200;
 }
 
 .nav li {
@@ -33,27 +37,39 @@ body {
 }
 
 .nav li a {
-  color: white;
+  color: #595959;
   border-radius: 20px;
 }
 
 .nav li a:hover, .nav li a:focus {
-  color: #336600;
-  box-shadow: 5px 5px 5px #1a3300;
+  color: #595959;
+  background: white;
+  border: 1px solid #595959;
+}
+
+.active {
+  border: 1px solid #595959;
+  border-radius: 20px;
+  /*font-weight: bold;*/
 }
 
 /*======= MAIN CONTENT =======*/
 
 .main {
-  margin-top: 150px;
+  margin-top: 170px;
   text-align: center;
-  width: 60%;
-  background-image: url("header.jpg");
+  width: 80%;
 }
 
 #profile {
-  margin-top: -1em;
+  margin: 1em 1em 1em 1em;
   border-radius: 60px;
+  float: left;
+}
+
+#about {
+  width: 500px;
+  margin: 0 auto;
 }
 
 .main * {
@@ -72,9 +88,10 @@ body {
 
 .main ul li {
   display: inline-block;
-  background: #336600;
+  background: white;
   border-radius: 20px;
   padding-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 .main ul li span {
@@ -82,20 +99,20 @@ body {
 }
 
 .main ul li a {
-  color: white;
+  color: #428000;
   text-decoration: none;
   padding-top: 1em;
   font-size: 1em;
 }
 
 .main ul li a:hover {
-  background: #428000;
-  color: white;
+  color: #336600;
+  border: 2px solid #336600;
   border-radius: 20px;
 }
 
 h3 a, h3 a:visited {
-  color: #336600;
+  color: #428000;
   text-decoration: none;
 }
 
@@ -107,4 +124,36 @@ h3 a:hover, h3 a:focus {
 
 #under {
   text-decoration: underline;
+}
+
+/*======= ADJUST ABOUT PAGE FOR MOBILE =======*/
+
+@media screen and (max-width: 767px) {
+  .main {
+    margin-top: 300px;
+  }
+
+  #about {
+    width: 90%;
+  }
+
+  #profile {
+    float: none;
+  }
+
+  .nav {
+    text-align: center;
+    clear: left;
+  }
+
+  .navbar-brand {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .small {
+    clear: left;
+    padding-left: 1em;
+  }
 }
