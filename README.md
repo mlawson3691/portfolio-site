@@ -1,9 +1,30 @@
-2 pages:
-- home page - projects
-- about me - bio, picture, contact info
+# _Portfolio_
 
-all have same nav bar - fixed to top, decorative background on nav
+#### _A portfolio website for its creator, August 5, 2016_
 
-STILL NEED:
-floats
-README
+#### By _**Mark Lawson**_
+
+## Description
+
+_This website is designed as a portfolio. It is designed with CSS and Bootstrap, as an exercise for Epicodus._
+
+## Setup/Installation Requirements
+
+* _Web Browser_
+
+## Known Bugs
+
+_There are no known bugs at this time._
+
+## Support and Contact Details
+
+_For questions, contact mlawson3691@gmail.com._
+
+## Technologies Used
+
+_Bootstrap_
+
+### License
+
+*This website is licensed under the MIT license*  
+Copyright (c) 2016 **_Mark Lawson_**
