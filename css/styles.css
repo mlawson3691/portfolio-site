@@ -1,0 +1,23 @@
+.small {
+  font-weight: 100;
+}
+
+.navbar{
+  background: #336600;
+  color: white;
+  padding-top: 40px;
+}
+
+.nav li {
+  margin: 1em 2em 0 0;
+}
+
+.nav li a {
+  color: white;
+  border-radius: 20px;
+}
+
+.nav li a:hover, .nav li a:focus {
+  color: #336600;
+  box-shadow: 5px 5px 5px #1a3300;
+}
