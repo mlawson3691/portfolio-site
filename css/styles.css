@@ -9,10 +9,6 @@ body {
 /*======= NAVIGATION =======*/
 
 .navbar{
-  /*background: #336600;
-  background-image: url('../img/header.jpg');
-  background-size: 100% auto;
-  color: white;*/
   padding-top: 40px;
   background: white;
 }
@@ -152,7 +148,7 @@ h3 a:hover, h3 a:focus {
 
   nav ul {
     clear: both;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
   }
 
   .nav {
