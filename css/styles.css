@@ -1,3 +1,13 @@
+/*======= PAGE SETUP =======*/
+
+body {
+  font-family: serif;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+/*======= NAVIGATION =======*/
+
 .small {
   font-weight: 100;
 }
@@ -6,6 +16,16 @@
   background: #336600;
   color: white;
   padding-top: 40px;
+}
+
+.navbar-brand {
+  font-size: 125%;
+}
+
+.small {
+  font-size: 90%;
+  margin-top: 1.2em;
+  padding-left: 2em;
 }
 
 .nav li {
@@ -20,4 +40,39 @@
 .nav li a:hover, .nav li a:focus {
   color: #336600;
   box-shadow: 5px 5px 5px #1a3300;
+}
+
+/*======= MAIN CONTENT =======*/
+
+.main {
+  margin-top: 150px;
+  text-align: center;
+  width: 60%;
+  background-image: url("header.jpg");
+}
+
+.main * {
+  padding-bottom: 1em;
+}
+
+.main ol {
+  text-align: left;
+  width: 175px;
+  margin: auto;
+}
+
+#profile {
+  margin-top: -1em;
+  border-radius: 60px;
+}
+
+h3 a, h3 a:visited {
+  color: #336600;
+  text-decoration: none;
+}
+
+h3 a:hover, h3 a:focus {
+  color: #336600;
+  text-decoration: none;
+  font-weight: bold;
 }
