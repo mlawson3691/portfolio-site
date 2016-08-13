@@ -65,6 +65,10 @@ body {
   padding-bottom: 1em;
 }
 
+.main h1 {
+  margin-bottom: -15px;
+}
+
 hr {
   margin-bottom: -15px;
 }
@@ -124,10 +128,6 @@ h3 a:hover, h3 a:focus {
   color: #336600;
   text-decoration: none;
   font-weight: bold;
-}
-
-#under {
-  text-decoration: underline;
 }
 
 /*======= FOOTER =======*/
